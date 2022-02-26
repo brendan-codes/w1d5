@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* header */
+
+.header {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    /* height: 100px; */
+}
+
+.header-content {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.header-content button {
+    background-color: #16A2B8;
+    color: white;
+    border: 0;
+    padding: 7px 14px;
+}
+
+.header-content button:hover {
+    background-color: #4bc8db;
+}
+
+.header-content button:active {
+
+    background-color: orangered;
+}
+
+.title {
+    width: 50%;
+}
+
+.title h1 {
+    margin: 10px 0;
+}
+
+.title p:nth-child(3) {
+    font-weight: bolder;
+}
+
+.columns {
+    /* background-color: grey; */
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* user card */
+.user-card {
+    margin: 0 auto;
+    width: 100%;
+    border: 4px solid #16A2B8;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.card-header {
+    background-color: #16A2B8;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-bottom: 125px;
+}
+
+.card-header img {
+    height: 200px;
+    width: auto;
+    border: 4px solid #CCCCCC;
+    border-radius: 50%;
+}
+
+.card-body {
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+
+.card-body h1, .card-body div, .card-body p {
+    margin-bottom: 10px;
+}
+
+.card-body img {
+    height: 25px;
+    margin-right: 10px;
+    width: auto;
+}
+
+/* requests */
+
+.requests {
+    border: 4px solid black;
+    margin-bottom: 25px;
+}
+
+.requests-header {
+    height: 40px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.requests-header p {
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+}
+
+.requests img {
+    height: 40px;
+    width: auto;
+}
+
+.request {
+    margin: 10px;
+}
+
+/* columns */
+.col-3 {
+    flex: 3;
+    padding: 20px;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+}
+
